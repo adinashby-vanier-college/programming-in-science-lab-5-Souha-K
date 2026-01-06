@@ -5,7 +5,13 @@
 # *   *
 # *****
 def hollow_square(n):
-    return ""
+    while n == 1:
+        print('*')
+        break
+
+n = int(input('Enter value: '))  
+output = hollow_square(n)
+print(output)
 
 # 1
 # 12
@@ -16,7 +22,8 @@ def number_pattern(n):
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
 def sum_of_natural_numbers(n):
-    return ""
+    n = ('Enter number: ')
+    return n
 
 # Example for n = 4:
 #    *
