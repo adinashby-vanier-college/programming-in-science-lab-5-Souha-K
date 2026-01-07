@@ -15,9 +15,9 @@ def hollow_square(n):
             x = (('*' * n) + (('\n*' + (' ' * (n - 2)) + '*') * (n - 2)))  + ('\n' + (('*' * n)))
             return (x) 
 
-n = int(input('Enter value: ')) 
-output = hollow_square(n)
-print(output)
+# n = int(input('Enter value: ')) 
+# output = hollow_square(n)
+# print(output)
 
 # 1
 # 12
