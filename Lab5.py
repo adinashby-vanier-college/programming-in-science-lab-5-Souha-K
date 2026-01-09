@@ -76,3 +76,23 @@ def centered_star_pyramid(n):
 #n = int(input('Enter number: '))
 #output = centered_star_pyramid(n)
 #print(output)
+
+
+# Example for n = 4:
+#    *
+#   ***
+#  *****
+# *******
+def centered_star_pyramid(n):
+    result = '*'
+    count = ' '
+
+    # print(count * 3 + result)
+
+
+
+    return result
+
+n = int(input('Enter number: '))
+output = centered_star_pyramid(n)
+print(output)
