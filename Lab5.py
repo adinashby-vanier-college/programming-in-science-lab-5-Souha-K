@@ -58,41 +58,21 @@ def sum_of_natural_numbers(n):
 #  *****
 # *******
 def centered_star_pyramid(n):
-    pass
-#     result = ''
-#     count = '*'
+    
+    result = ''
 
-#     for i in range(n + 1):
-#         result += count
+    for i in range(n):
 
-#         for j in range(1, i + 1):
-#             result += count
-#             result += ' '
-#             result += '\n'
+        for j in range (n - i - 1):
+            result += ' ' 
 
+        for k in range(2 * i + 1):
+            result += '*'
 
-#     return result
+        result += '\n'
 
-#n = int(input('Enter number: '))
-#output = centered_star_pyramid(n)
-#print(output)
+    return result.rstrip()
 
-
-# Example for n = 4:
-#    *
-#   ***
-#  *****
-# *******
-def centered_star_pyramid(n):
-    result = '*'
-    count = ' '
-
-    # print(count * 3 + result)
-
-
-
-    return result
-
-n = int(input('Enter number: '))
-output = centered_star_pyramid(n)
-print(output)
+# n = int(input('Enter number: '))
+# output = centered_star_pyramid(n)
+# print(output)
